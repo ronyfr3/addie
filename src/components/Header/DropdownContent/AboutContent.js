@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import CB from "../../../utils/Images/Group 13506.png";
 import CP from "../../../utils/Images/Group 13511.png";
 import OT from "../../../utils/Images/Group 13512.png";
 import OP from "../../../utils/Images/Group 13513.png";
-import {Link} from 'react-router-dom'
-import './AboutContent.css'
+import './AboutContent.css';
 
 const AboutContent = (props) => {
 //outside click false

@@ -3,7 +3,7 @@ import AboutFooterframe from "../components/AboutFooterframe";
 import Arrow from "../utils/Images/Arrow 1.png";
 import "./styles/ComapnyPhilosophy.css";
 
-const ComapnyPhilosophy = () => {
+const CompanyPhilosophy = () => {
   return (
     <div className="philosophy-wrapper">
       <div className="philosophy-head-section">
@@ -24,4 +24,4 @@ const ComapnyPhilosophy = () => {
   );
 };
 
-export default ComapnyPhilosophy;
+export default CompanyPhilosophy;
