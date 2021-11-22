@@ -1,0 +1,78 @@
+.carousel-wrapper {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.carousel-btns {
+  width: 100%;
+  position: absolute;
+  bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+/* btns */
+.about-prevbtn {
+  z-index: 5;
+  border: none !important;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+.about-nextvbtn {
+  z-index: 5;
+  cursor: pointer;
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.about-page-slider {
+  width: 100%;
+  height: 700px;
+  z-index: 1;
+}
+.about-slider-images{
+  width: 100%;
+  position:relative;
+  z-index: 5;
+}
+.about-slider-content{
+  position:absolute;
+  z-index: 10;
+
+}
+.aboutslick-slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.line-indicator li {
+  height: 3px;
+  width: 70px;
+  background: lightgray;
+  position: relative;
+  top: -100px;
+}
+.line-indicator li:nth-child(1) {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  width: 50px;
+}
+.line-indicator li:nth-child(2) {
+  width: 100px;
+}
+
+.line-indicator li:nth-child(3) {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  width: 50px;
+}
+
+.line-indicator li:hover {
+  background: rgb(68, 68, 68);
+}
+
+.line-indicator li.slick-active {
+  background: white;
+}

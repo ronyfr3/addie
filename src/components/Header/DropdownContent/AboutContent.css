@@ -1,0 +1,39 @@
+.aboutContent-wrapper {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:white;
+  width: 100%;
+  height: 224px;
+  box-shadow: 0 15px 15px 10px rgba(246, 246, 246, 0.97);
+}
+.aboutContent-wrapper .aboutContent-dataField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 270px;
+}
+.aboutContent-wrapper .aboutContent-dataField img {
+  width: 23.45px;
+  height: 24px;
+  margin-right: 15px;
+}
+.aboutContent-wrapper .aboutContent-dataField .aboutContent-title a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383949;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+}
+.aboutContent-wrapper .aboutContent-dataField .aboutContent-title small{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #383949;
+}

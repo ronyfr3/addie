@@ -1,0 +1,65 @@
+.aboutFooterFrame-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDEDED;
+}
+.aboutFooterFrame{
+  width: 80%;
+  padding: 30px 0;
+}
+.footerframe-first{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 400px;
+  text-align: center;
+}
+.footerframe-proud-member h1{
+  color: #383949;
+  line-height:80px;
+  text-transform: capitalize;
+
+}
+.footerframe-proud-member img{
+  width: 380px;
+
+}
+.footerFrame-received-awards h1{
+  color: #383949;
+  line-height:80px;
+  text-transform: capitalize;
+}
+.footerFrame-received-awards-imgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.footerframe-first{
+  display: flex;
+  border-bottom: 1px solid #C7C7C7;
+  padding: 30px 0;
+}
+.footerframe-second{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.footerframe-second-content{
+  width: 450px;
+}
+.footerframe-second-logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footerframe-second-logos img{
+  Width: 157.75px;
+  Height: 43.42px
+}

@@ -1,0 +1,58 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  padding: 0 60px;
+  border-bottom: 1px solid #dbdbdb;
+}
+.header-wrapper .addielogo {
+  width: 130px;
+  height: 30px;
+}
+.header-wrapper .header-pages ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-wrapper .header-pages ul li {
+  margin: 0px 35px;
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #383949;
+}
+.header-wrapper .header-contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-wrapper .header-contact-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 15px;
+  background-color: #183560;
+  border: 1px solid #183560;
+  box-sizing: border-box;
+  border-radius: 22px;
+  width: 129px;
+  margin-right: 20px;
+}
+.header-wrapper .header-contact-btn button .header-contact-phn-logo {
+  width: 11.98px;
+  height: 11.98px;
+  margin-right: 5px;
+}
+.header-wrapper .header-contact-btn button p {
+  color: #f7f7f7;
+}
+.header-wrapper .header-contact-btn .header-day-night {
+  width: 19.68px;
+  height: 24px;
+}
