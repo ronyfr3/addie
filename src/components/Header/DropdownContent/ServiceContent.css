@@ -1,0 +1,55 @@
+.serviceContent-wrapper {
+  position: absolute;
+  left: 0;
+  top: 80px;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-items:flex-start;
+  grid-column-gap: 0px;
+  grid-row-gap: 20px;
+  background-color: white;
+  width: 100%;
+  height: 330px;
+  padding: 3rem 0 0 9rem;
+  box-shadow: 0 15px 15px 10px rgba(246, 246, 246, 0.97);
+}
+.serviceContent-dataField{
+    display:flex;
+    align-items: flex-start;
+}
+
+.serviceContent-title{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.serviceContent-dataField img {
+    width: 23.45px;
+    height: 24px;
+    margin-right: 15px;
+  }
+  .serviceContent-title a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383949;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    text-transform: capitalize;
+}
+  .serviceContent-title small{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #383949;
+}
+.serviceContent-footer{
+    background-color: #183560;
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
